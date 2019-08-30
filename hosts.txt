@@ -1,3 +1,20 @@
-[aws_servers]
-linux	ansible_host=3.82.202.65
+[dev_tools]
+linux	ansible_host=54.89.77.30
+
+
+[artifactory]
+linux	ansible_host=54.89.77.30
+
+[ci]
+linux	ansible_host=54.197.38.194
+
+[docker]
+linux	ansible_host=34.201.108.22
+
+[ALL_SERVERS:children]
+dev_tools
+artifactory
+ci
+docker
+
 
