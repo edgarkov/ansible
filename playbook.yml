@@ -9,7 +9,7 @@
     message2: World
     secret  : XCXVXCXCXAVAVC
 
-  tsks:
+  tasks:
 
   - name: Print Secret variable
     debug:
