@@ -47,3 +47,4 @@
     become: yes
     become_method: sudo
     command: cat /var/lib/jenkins/secrets/initialAdminPassword
+...

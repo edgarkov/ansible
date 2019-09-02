@@ -1,11 +1,11 @@
 [dev_tools]
-linux1	ansible_host=3.95.169.14
+linux1	ansible_host=54.172.134.73
 
 [artifactory]
-linux2	ansible_host=52.87.161.119
+linux2	ansible_host=18.212.188.230
 
 [ci]
-linux3	ansible_host=3.82.105.28
+linux3	ansible_host=3.83.34.208
 
 [docker]
 linux4	ansible_host=3.84.45.0
